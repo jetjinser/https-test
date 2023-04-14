@@ -1,3 +1,4 @@
+```
 > cargo r
 
     Finished dev [unoptimized + debuginfo] target(s) in 0.01s
@@ -6,3 +7,6 @@
 [2023-04-14 11:57:04.795] [error] [WasmEdge Httpsreq] SSL_get_error code -1
 [2023-04-14 11:57:04.795] [error] 141
 [2023-04-14 11:57:04.795] [error]     When executing function name: "_start"
+```
+
+see alse: https://github.com/openssl/openssl/issues/7147
